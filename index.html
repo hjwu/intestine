@@ -1,0 +1,24 @@
+<! DOCTYPE html>
+<html>
+<head>
+<!-- edited @ 2011/03/16-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>生きている腸</title>
+	<script type="text/javascript" src="intestine.js"></script>
+	<link rel="stylesheet" href="intestine.css" type="text/css"/>
+	<link rel="shortcut icon" type="image/png" href="icon/intestine_icon.png" />			
+</head>
+<body onLoad="init();">
+	<div><canvas id="title" width="960" height="80"></canvas></div>
+	<div id="game">
+		<canvas id="SNAKE" width="640" height="520"></canvas>
+	</div>
+	<div id="setting"> 
+		<div id="records"><canvas id="SCORE" width="250" height="360"></canvas></div>
+		<div><canvas id="speed" width="250" height="80"></canvas></div>
+		<div><input type="range" id="range" min="0" max="50" value="25" step="25" onchange="changeSpeed()"/></div>
+	</div>
+<div id="footer"><img src="../logo/footer.png"></div>
+<div id="copyright">Copyright © 2011 Jhong Sheng Yuan Technology Co., Ltd. All rights reserved.</div>
+</body>
+</html>

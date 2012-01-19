@@ -1,0 +1,9 @@
+html{text-align:center;}
+body{position:relative;margin:0 auto;padding-top:5px;width:960px; background-color:black; height:700px; }
+div#game{float:left;position:relative;margin:0 auto;width:640px;text-align:center;}
+div#setting{float:right;position:relative; width:250px; margin-right:40px; padding-top:5px; padding-left:30px; text-align:left;}
+div#footer{clear:both; position:relative;text-align:center;}
+input#range{height:20px; position:relative; cursor:pointer;	width:200px; background: rgba(60, 114, 230, .8); border: 1px solid #333; -webkit-border-radius: 10px; -webkit-appearance: none !important;}
+input#range::-webkit-slider-thumb{width: 30px;height: 20px;	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc) );	border: 1px solid #000;	
+-webkit-box-shadow: 0 0 6px #000;-webkit-border-radius: 14px; -webkit-appearance: none !important; }
+div#copyright{color:white;font-size:12pt;}
